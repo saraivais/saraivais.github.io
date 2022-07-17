@@ -9,7 +9,7 @@ describe('Verifies the correct rendering of routes on App', () => {
     render(
       <MemoryRouter initialEntries={['/']}>
         <App />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
 
     const homeScreenTitle = screen.getByText(/home screen/i);
@@ -21,7 +21,7 @@ describe('Verifies the correct rendering of routes on App', () => {
     render(
       <MemoryRouter initialEntries={['/contact']}>
         <App />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
 
     const contactScreenTitle = screen.getByText(/contact screen/i);
@@ -33,11 +33,11 @@ describe('Verifies the correct rendering of routes on App', () => {
     render(
       <MemoryRouter initialEntries={['/projects']}>
         <App />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
 
     const projectsScreenTitle = screen.getByText(/projects screen/i);
 
     expect(projectsScreenTitle).toBeInTheDocument();
   });
-})
+});
