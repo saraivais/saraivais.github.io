@@ -4,8 +4,8 @@ import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom'
 import App from '../App';
 
-describe('xablau', () => {
-  it('testa home', () => {
+describe('Verifies the correct rendering of routes on App', () => {
+  it('verifies if the correct page, "Home" is rendered on "/"', () => {
     render(
       <MemoryRouter initialEntries={['/']}>
         <App />
@@ -17,7 +17,7 @@ describe('xablau', () => {
     expect(homeScreenTitle).toBeInTheDocument();
   });
 
-  it('testa contact', () => {
+  it('verifies if the correct page, "Contact" is rendered on "/contact"', () => {
     render(
       <MemoryRouter initialEntries={['/contact']}>
         <App />
@@ -29,7 +29,7 @@ describe('xablau', () => {
     expect(contactScreenTitle).toBeInTheDocument();
   });
 
-  it('testa projects', () => {
+  it('verifies if the correct page, "Projects" is rendered on "/projects"', () => {
     render(
       <MemoryRouter initialEntries={['/projects']}>
         <App />
