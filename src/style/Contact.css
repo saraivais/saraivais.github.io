@@ -1,0 +1,61 @@
+.contact {
+  align-items: center;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  padding: 0 30px 30px 30px;
+  width: 100vw;
+}
+
+.contact-box {
+  align-items: center;
+  display: flex;
+  width: 930px;
+  height: 55%;
+}
+
+.contact-text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 40px;
+  width: 50%;
+}
+
+.contact-title {
+  color: #2187b5;
+  font-family: Oswald, sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.contact-message {
+  text-align: center;
+  color: #dbdbdb;
+  font-family: Uchen, serif;
+  font-size: 1em;
+}
+
+.first-message {
+  font-family: Oswald, sans-serif;
+  font-size: 1.32em;
+  margin: 0 0 20px 0;
+}
+
+.media-icon-container {
+  align-items: center;
+  /* background-color: aqua; */
+  display: flex;
+  height: 80px;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 300px;
+}
+
+.media-icons {
+  filter: invert(99%) sepia(0%) saturate(269%) hue-rotate(217deg) brightness(97%) contrast(78%);
+  height: 60px;
+  width: 60px;
+}
