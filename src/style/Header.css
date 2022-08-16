@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  align-items: center;
+  background-color: #121212;
+  box-shadow: 0 0.5px 20px 4px black;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 75px;
+}
+
+.header-icons {
+  height: 40px;
+  width: 40px;
+  filter: invert(99%) sepia(0%) saturate(269%) hue-rotate(217deg) brightness(97%) contrast(78%);
+  transition: 0.1s;
+}
+
+.header-icons:hover{
+  filter: invert(83%) sepia(89%) saturate(352%) hue-rotate(60deg) brightness(92%) contrast(81%);
+}

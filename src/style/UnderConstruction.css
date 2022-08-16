@@ -1,0 +1,32 @@
+.construction-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.construction-title {
+  color: #dbdbdb;
+  font-family: Oswald, sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.construction-hammer {
+  filter: invert(99%) sepia(0%) saturate(269%) hue-rotate(217deg) brightness(97%) contrast(78%);
+  height: 150px;
+  width: 150px;
+  animation: hammering infinite 1.5s linear;
+}
+
+@keyframes hammering {
+  from {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(-15deg);
+  }
+}
