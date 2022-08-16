@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import '../style/Home.css';
 
 function Home() {
@@ -26,7 +27,7 @@ function Home() {
           alt="profile-pic"
         />
       </section>
-      <section>IDK WHAT TO SAY HERE</section>
+      <Footer />
     </div>
   );
 }
