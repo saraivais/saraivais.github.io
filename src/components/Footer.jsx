@@ -1,9 +1,10 @@
 import React from 'react';
+import '../style/Footer.css';
 
 function Footer() {
   return (
-    <footer>
-      Este Portfólio foi desenvolvido com React, CSS e amor.
+    <footer className="footer-container">
+      <p className="footer-text">Este Portfólio foi desenvolvido com React, CSS e amor</p>
     </footer>
   );
 }
