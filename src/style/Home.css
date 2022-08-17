@@ -33,6 +33,7 @@
 .title {
   font-family: Oswald, sans-serif;
   font-size: 2em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
