@@ -1,0 +1,13 @@
+.footer-container {
+  box-shadow: 0 0.5px 20px 4px black;
+  width: 100vw;
+}
+
+.footer-text {
+  color: #dbdbdb;
+  font-family: Oswald, sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+  padding: 5px 10px;
+  text-align: right;
+}
