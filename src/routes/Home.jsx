@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../style/Home.css';
+import profilePic from '../icons/profile-pic.png';
 
 function Home() {
   return (
@@ -23,7 +24,7 @@ function Home() {
         </div>
         <img
           className="introduction-pic"
-          src="https://picsum.photos/200"
+          src={profilePic}
           alt="profile-pic"
         />
       </section>

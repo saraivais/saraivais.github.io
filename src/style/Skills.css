@@ -1,0 +1,39 @@
+.skills-page {
+  align-items: center;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  padding: 0 30px;
+  width: 100vw;
+}
+
+.skills-container {
+  display: flex;
+  background-color: rgb(6, 6, 6);
+  border-radius: 10px;
+  height: 72vh;
+  width: 950px;
+  flex-wrap: wrap;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey; 
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dbdbdb; 
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2187b5; 
+}

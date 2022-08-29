@@ -12,16 +12,35 @@
   display: flex;
   justify-content: space-evenly;
   width: 100vw;
-  height: 75px;
+  height: 78px;
+}
+
+.header-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-link:hover .link-name {
+  color: #69d68f;
+}
+
+.header-link:hover .header-icons {
+  filter: invert(83%) sepia(89%) saturate(352%) hue-rotate(60deg) brightness(92%) contrast(81%);
+}
+
+.link-name {
+  color: #dbdbdb;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 4px;
 }
 
 .header-icons {
   height: 40px;
   width: 40px;
   filter: invert(99%) sepia(0%) saturate(269%) hue-rotate(217deg) brightness(97%) contrast(78%);
-  transition: 0.1s;
-}
-
-.header-icons:hover{
-  filter: invert(83%) sepia(89%) saturate(352%) hue-rotate(60deg) brightness(92%) contrast(81%);
 }
