@@ -9,36 +9,40 @@ function Header() {
   return (
     <header className="header-container">
 
-      <Link to="/">
+      <Link to="/" className="header-link">
         <img
           src={home}
           alt="home-icon"
           className="header-icons"
         />
+        <p className="link-name">Página Inicial</p>
       </Link>
 
-      <Link to="/skills">
+      <Link to="/skills" className="header-link">
         <img
           src={skills}
           alt="skills-icon"
           className="header-icons"
         />
+        <p className="link-name">Tecnologias</p>
       </Link>
 
-      <Link to="/projects">
+      <Link to="/projects" className="header-link">
         <img
           src={code}
           alt="code-icon"
           className="header-icons"
         />
+        <p className="link-name">Projetos</p>
       </Link>
 
-      <Link to="/contact">
+      <Link to="/contact" className="header-link">
         <img
           src={email}
           alt="contact-icon"
           className="header-icons"
         />
+        <p className="link-name">Contato</p>
       </Link>
 
     </header>
