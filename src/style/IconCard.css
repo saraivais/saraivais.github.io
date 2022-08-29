@@ -1,0 +1,30 @@
+.skill-card {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  width: 950px;
+}
+
+.skill-img {
+  margin: 10px;
+  width: 70px;
+  filter: invert(99%) sepia(0%) saturate(269%) hue-rotate(217deg) brightness(97%) contrast(78%);
+}
+
+.text-container {
+  /* color: white; */
+  margin: 0 10px;
+}
+
+.skill-title {
+  color: #2187b5;
+  font-family: Uchen, serif;
+  font-size: 1.2em;
+}
+
+.skill-desc {
+  color: #dbdbdb;
+  font-family: Oswald, sans-serif;
+  font-size: 0.85em;
+}
