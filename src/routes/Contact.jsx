@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import EmailForm from '../components/EmailForm';
 import githubIcon from '../icons/github.svg';
 import linkedinIcon from '../icons/linkedin.svg';
+import CVFullStack from '../files/CVFullStack.pdf';
 import '../style/Contact.css';
 
 function Contact() {
@@ -15,6 +16,7 @@ function Contact() {
           <p className="contact-message first-message">se gostou do meu trabalho e quer conversar.</p>
           <p className="contact-message">Pode me alcançar através do formulário ao lado ou por meio das redes sociais abaixo.</p>
           <p className="contact-message">Responderei o mais breve possível.</p>
+          <a className="cv-download" href={CVFullStack} download>Enquanto isso, pode acessar meu currículo clicando aqui.</a>
         </div>
         <EmailForm />
       </div>
