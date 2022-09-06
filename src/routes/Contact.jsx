@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import EmailForm from '../components/EmailForm';
 import githubIcon from '../icons/github.svg';
 import linkedinIcon from '../icons/linkedin.svg';
-import CVFullStack from '../files/CVFullStack.pdf';
+import CVFullStack from '../files/CV.pdf';
 import '../style/Contact.css';
 
 function Contact() {
