@@ -1,0 +1,30 @@
+.project-card {
+  background-color: white;
+  align-items: center;
+  border: 2px solid red;
+  display: flex;
+}
+
+.project-image {
+  height: 300px;
+}
+
+.project-info {
+  border: 1px solid blue;
+}
+
+.project-title {
+
+}
+
+.project-repo {
+
+}
+
+.project-description {
+
+}
+
+.project-stacks {
+
+}
