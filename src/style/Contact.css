@@ -44,6 +44,16 @@
   margin: 0 0 20px 0;
 }
 
+.cv-download {
+  text-align: center;
+  color: #2187b5;
+  font-family: Oswald, sans-serif;
+  font-size: 1.15em;
+  margin: 5px 0;
+  width: 70%;
+  /* text-decoration: none; */
+}
+
 .media-icon-container {
   align-items: center;
   /* background-color: aqua; */
