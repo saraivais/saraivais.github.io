@@ -13,9 +13,11 @@ function ProjectCard({
       <img className="project-image" src={image} alt={`${name}-project`} />
       <div className="project-info">
         <h1 className="project-title">{ name }</h1>
-        <a className="project-repo" href={repo} target="_blank" rel="noreferrer">Acesse o repositório</a>
         <p className="project-description">{description}</p>
-        <p className="project-stacks">{stacks}</p>
+        <ul className="project-stacks">
+          {stacks.map((stack) => (<li className="stack" key={`${stack}`}>{stack}</li>))}
+        </ul>
+        <a className="project-repo" href={repo} target="_blank" rel="noreferrer">Acesse o repositório</a>
       </div>
     </div>
   );
@@ -26,7 +28,7 @@ ProjectCard.propTypes = {
   image: propTypes.string.isRequired,
   repo: propTypes.string.isRequired,
   description: propTypes.string.isRequired,
-  stacks: propTypes.string.isRequired,
+  stacks: propTypes.arrayOf(propTypes.string).isRequired,
 };
 
 export default ProjectCard;
