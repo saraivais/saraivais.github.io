@@ -1,30 +1,60 @@
 .project-card {
-  background-color: white;
   align-items: center;
-  border: 2px solid red;
   display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 3%;
+  width: 90%;
 }
 
 .project-image {
+  border-radius: 10px;
   height: 300px;
 }
 
 .project-info {
-  border: 1px solid blue;
+  border-radius: 10px;
+  box-shadow: 4px 4px 30px 0.5px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1% 2.5%;
+  width: 50%;
+  height: 300px;
 }
 
 .project-title {
-
+  align-self: center;
+  color: #69d68f;
+  font-family: Uchen, serif;
+  font-size: 2em;
 }
 
 .project-repo {
-
+  align-self: center;
+  color: #2187b5;
+  font-family: Oswald, sans-serif;
+  font-size: 1.2em;
 }
 
 .project-description {
-
+  color: #dbdbdb;
+  font-family: Oswald, sans-serif;
+  font-size: 1.15em;
+  text-align: center;
 }
 
 .project-stacks {
+  align-self: center;
+  display: flex;
+  list-style: none;
+  margin: 5px 0;
+}
 
+.stack {
+  background-color: #69d68f;
+  border-radius: 500px;
+  font-family: Oswald, sans-serif;
+  margin: 5px;
+  padding: 5px 15px;
 }
