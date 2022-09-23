@@ -1,0 +1,64 @@
+.project-card {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 3%;
+  width: 90%;
+}
+
+.project-image {
+  border-radius: 10px;
+  height: 300px;
+}
+
+.project-info {
+  border-radius: 10px;
+  box-shadow: 4px 4px 30px 0.5px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 2.5%;
+  width: 52%;
+  height: 300px;
+}
+
+.project-title {
+  align-self: center;
+  color: #69d68f;
+  font-family: Uchen, serif;
+  font-size: 1.8em;
+}
+
+.project-repo {
+  align-self: center;
+  color: #2187b5;
+  font-family: Oswald, sans-serif;
+  font-size: 1.2em;
+}
+
+.project-description {
+  color: #dbdbdb;
+  font-family: Oswald, sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.project-stacks {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 3px 0;
+  width: 90%;
+}
+
+.stack {
+  background-color: #69d68f;
+  border-radius: 500px;
+  font-family: Oswald, sans-serif;
+  /* font-size: 0.9em; */
+  margin: 2px 5px;
+  padding: 2px 10px;
+}

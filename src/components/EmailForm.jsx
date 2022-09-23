@@ -21,9 +21,15 @@ function EmailForm() {
     setFormCompletion((prevState) => ({ ...prevState, [name]: value }));
   };
 
+  const clearForm = () => {
+    setFormCompletion({ user_name: '', user_email: '', message: '' });
+    alert('E-mail enviado com sucesso!');
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_nya3qlm', 'template_05c5ceo', form.current, 'HlC75ErAiIeSmr8iT');
+    clearForm();
   };
 
   return (
